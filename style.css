@@ -1,0 +1,73 @@
+
+
+caption {
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-bottom: 2px solid #ccc;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+div {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+    opacity: 0; /* Initially set opacity to 0 for fade-in effect */
+    animation: fadeIn 1s ease-out forwards; /* Apply fade-in animation */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+h3 {
+    font-size: 18px;
+    color: #555;
+}
+
+h4 {
+    font-size: 16px;
+    color: #666;
+    margin-top: 5px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* Add this CSS code to your stylesheet or in a <style> tag in the head of your HTML file */
+
+
+/* Add more styling as needed */
